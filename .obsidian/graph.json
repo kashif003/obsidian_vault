@@ -1,0 +1,30 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#TODO  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -1.9,
+  "nodeSizeMultiplier": 1.64621632597807,
+  "lineSizeMultiplier": 3.22062406931095,
+  "collapse-forces": false,
+  "centerStrength": 0.290307296602139,
+  "repelStrength": 10.2477325030459,
+  "linkStrength": 1,
+  "linkDistance": 305,
+  "scale": 1.3847366716161487,
+  "close": true
+}

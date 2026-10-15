@@ -1,0 +1,10 @@
+{
+  "id": "vim-cheatsheet",
+  "name": "Vim Cheatsheet",
+  "version": "1.0.2",
+  "minAppVersion": "1.4.0",
+  "description": "Searchable, categorized vim command reference inside app. Works alongside the built-in vim key bindings.",
+  "author": "Rafael Mehdiyev",
+  "authorUrl": "https://github.com/rafaelmehdiyev",
+  "isDesktopOnly": false
+}

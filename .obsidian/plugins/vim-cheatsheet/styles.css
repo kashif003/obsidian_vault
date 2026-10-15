@@ -1,0 +1,180 @@
+/* ── Vim Cheatsheet plugin styles ──────────────────────────────────────────
+   All colours use Obsidian CSS variables so the plugin adapts to any theme.
+   ─────────────────────────────────────────────────────────────────────────── */
+
+/* Modal sizing — class is on .modal itself, so no descendant combinator */
+.vim-cheatsheet-modal {
+	width: min(700px, 90vw);
+	max-height: 80vh;
+}
+
+/* Root container (shared by modal and sidebar) */
+.vim-cheatsheet {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	gap: 8px;
+	padding: 8px 0;
+}
+
+/* ── Search row ──────────────────────────────────────────────────────────── */
+.vim-cs-search-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 0 4px;
+}
+
+.vim-cs-search {
+	flex: 1;
+	padding: 6px 10px;
+	border-radius: var(--radius-m);
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-primary);
+	color: var(--text-normal);
+	font-size: var(--font-ui-small);
+	outline: none;
+}
+
+.vim-cs-search:focus {
+	border-color: var(--interactive-accent);
+	box-shadow: 0 0 0 2px var(--interactive-accent-hover);
+}
+
+.vim-cs-count {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+
+/* ── Category filter row ─────────────────────────────────────────────────── */
+.vim-cs-filter-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	padding: 0 4px;
+}
+
+.vim-cs-cat-btn {
+	padding: 2px 10px;
+	border-radius: var(--radius-s);
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	cursor: pointer;
+	transition: background 0.1s, color 0.1s;
+}
+
+.vim-cs-cat-btn:hover {
+	background: var(--background-modifier-hover);
+	color: var(--text-normal);
+}
+
+.vim-cs-cat-btn--active {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+	border-color: var(--interactive-accent);
+}
+
+/* ── Command list ────────────────────────────────────────────────────────── */
+.vim-cs-list {
+	overflow-y: auto;
+	flex: 1;
+}
+
+.vim-cs-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 6px 8px;
+	border-radius: var(--radius-s);
+	cursor: default;
+}
+
+.vim-cs-row:hover {
+	background: var(--background-modifier-hover);
+}
+
+.vim-cs-row--selected {
+	background: var(--background-modifier-hover);
+	outline: 1px solid var(--interactive-accent);
+	outline-offset: -1px;
+}
+
+.vim-cs-row-left {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	min-width: 120px;
+	flex-shrink: 0;
+}
+
+.vim-cs-cmd {
+	display: inline-block;
+	padding: 1px 6px;
+	border-radius: var(--radius-s);
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-secondary);
+	color: var(--text-accent);
+	font-family: var(--font-monospace);
+	font-size: var(--font-ui-small);
+	white-space: nowrap;
+}
+
+.vim-cs-warn {
+	color: var(--text-warning);
+	cursor: help;
+	font-size: var(--font-ui-small);
+}
+
+.vim-cs-row-right {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	flex: 1;
+	min-width: 0;
+}
+
+.vim-cs-desc {
+	font-size: var(--font-ui-small);
+	color: var(--text-normal);
+}
+
+.vim-cs-example {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	font-style: italic;
+}
+
+/* ── Obsidian caveat note ────────────────────────────────────────────────── */
+.vim-cs-note {
+	font-size: var(--font-ui-smaller);
+	color: var(--color-yellow, #e6a817);
+	margin-top: 3px;
+}
+
+.vim-cs-note-label {
+	font-weight: 600;
+}
+
+/* ── Empty state ─────────────────────────────────────────────────────────── */
+.vim-cs-empty {
+	padding: 24px;
+	text-align: center;
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+}
+
+/* ── Settings hint ───────────────────────────────────────────────────────── */
+.vim-cs-settings-hint {
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	margin-bottom: 12px;
+}
+
+/* ── Sidebar view ────────────────────────────────────────────────────────── */
+/* .vim-cheatsheet-view is added to containerEl in CheatsheetView.onOpen() */
+.vim-cheatsheet-view .vim-cheatsheet {
+	padding: 8px;
+}

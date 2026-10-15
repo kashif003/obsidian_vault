@@ -1,0 +1,60 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "dPhjBjZyQqQfkejeIz7UL",
+      "name": "white",
+      "value": "#ffffff"
+    },
+    {
+      "id": "fgWmP76QlPfvRnJ0wPG-d",
+      "name": "warm",
+      "value": "#e9a616"
+    },
+    {
+      "id": "DhuAlpd7Z9pNayZrFX8rU",
+      "name": "Green",
+      "value": "#80ea87"
+    },
+    {
+      "id": "vB-zeCQ8jQ29OcafzMsKp",
+      "name": "black",
+      "value": "#000000"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Personal_growth",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "👨‍🏭 GIESSEN",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "👨‍🎓 Collage",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "sub_notes",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "images",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "Excalidraw",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "Book summaries",
+      "color": "vB-zeCQ8jQ29OcafzMsKp"
+    },
+    {
+      "path": "2026-10-13.md",
+      "color": "fgWmP76QlPfvRnJ0wPG-d"
+    }
+  ]
+}
