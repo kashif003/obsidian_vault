@@ -11,4 +11,3 @@ changes from first to second
 
 changes from second to first.
 
-^
