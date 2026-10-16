@@ -7,7 +7,8 @@ created: 2026-10-15
 excalidraw-plugin: "[[Drawing 2026-10-15 19.35.16.excalidraw]]"
 TQ_show_task_count: false
 ---
-need to add changes from second to first
+changes from first to second
 
+changes from second to first.
 
-these arwe the cahnges.
+^
