@@ -10,4 +10,6 @@ TQ_show_task_count: false
 
  here are some change for githun
   why are these changes not shown in github?
-  
+
+
+here are more changes to the first laptop
