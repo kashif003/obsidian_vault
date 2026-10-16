@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2026-10-13.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 516
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,7 +240,8 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "copilot:Open Copilot Chat": true,
       "vim-cheatsheet:Open Vim Cheatsheet in Modal": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "github-sync:Sync with Remote": false
     }
   },
   "active": "5ab1ecfeb8e20644",
