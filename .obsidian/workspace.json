@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "2026-10-13"
             }
+          },
+          {
+            "id": "5ab1ecfeb8e20644",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -57,7 +72,10 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -108,25 +126,44 @@
     "type": "split",
     "children": [
       {
-        "id": "4653e463e5264064",
+        "id": "f7fc859646f587df",
         "type": "tabs",
         "children": [
           {
-            "id": "46c1dea7e8721452",
+            "id": "4d418f7afe4f0831",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2026-10-13.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "d01f1fe9a3d427f8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2026-07-04 22.27.42.excalidraw.md",
+                "file": "2026-10-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Drawing 2026-07-04 22.27.42.excalidraw"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "6b9eaa5c3dcc4746",
+            "id": "906ffe12004e5524",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,7 +178,7 @@
             }
           },
           {
-            "id": "cc146c2503b7dc89",
+            "id": "b3f57aba4a2bcdd4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -155,11 +192,12 @@
             }
           },
           {
-            "id": "bb9d4740a5b2a56c",
+            "id": "2979d17296e1eba0",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "2026-10-13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -169,47 +207,7 @@
             }
           },
           {
-            "id": "fc1d449854fa858e",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "cd1dc8b7854bf24d",
-            "type": "leaf",
-            "state": {
-              "type": "footnotes",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-07-04 22.27.42.excalidraw.md"
-              },
-              "icon": "lucide-file-signature",
-              "title": "Footnotes"
-            }
-          },
-          {
-            "id": "03e5dea40e13d1b3",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
-            }
-          },
-          {
-            "id": "e1970d8ca26df84c",
+            "id": "a305c94cc3a2184d",
             "type": "leaf",
             "state": {
               "type": "reminder-list",
@@ -217,23 +215,13 @@
               "icon": "clock",
               "title": "Reminders"
             }
-          },
-          {
-            "id": "51980e1a6b9d7b9c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,39 +241,43 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "copilot:Open Copilot Chat": true,
       "vim-cheatsheet:Open Vim Cheatsheet in Modal": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "7eec0b96fddec33e",
+  "active": "5ab1ecfeb8e20644",
   "lastOpenFiles": [
+    "2026-10-13.md",
+    "Excalidraw/Drawing 2026-10-15 19.35.16.excalidraw.md",
+    "Untitled.md",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Untitled",
+    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
+    "2026-10-12.md",
+    "Simulation manual object movement via python.md",
+    "2026-10-15.md",
+    "Master Thesis/Daily notes/2026-10-07.md",
     "Untitled.base",
     "sub_notes/3.3 Learning from example project..md",
     "👨‍🎓 Collage/2. Advanced Deep Learning.md",
     "& 2026-10-14 Deep Learning for Time Series Anomaly Detection A Survey.md",
     "Excalidraw/Drawing 2026-10-15 10.19.13.excalidraw.md",
     "Excalidraw/Drawing 2026-10-15 10.13.44.excalidraw.md",
-    "2026-10-12.md",
-    "2026-10-15.md",
     "Excalidraw",
-    "2026-10-13.md",
     "Master Thesis/Daily notes/2026-10-14.md",
-    "Untitled.md",
-    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
-    "Simulation manual object movement via python.md",
     "Master Thesis/Benchmarks/DAYPSCI.md",
     "Master Thesis/Registration.md",
     "Master Thesis/literature review/A TESTBED FOR EVALUATION OF MACHINE LEARNING TECHNIQUES IN ANOMALY DETECTION IN INDUSTRIAL CYBER PHYSICAL SYSTEMS.md",
     "Master Thesis/literature review/CARLA Self-supervised contrastive representation learning for time series anomaly detection.md",
     "Master Thesis/literature review/DAYPSCI.md",
-    "Master Thesis/Daily notes/2026-10-07.md",
     "Master Thesis/Daily notes/2026-10-08.md",
     "Master Thesis/literature review/Deep learning for  time series anomaly detection A Survey.md",
     "Master Thesis/Daily notes/2026-10-06.md",
     "Master Thesis/Daily notes/2026-10-03.md",
-    "Master Thesis/Daily notes/2026-10-01.md",
-    "👨‍🏭 GIESSEN/1. learnings-Giessen.md",
-    "Master Thesis/Daily notes/2026-09-30.md",
     "Personal_growth/00. Fleeting notes",
     "sub_notes/Pasted image 20261011120632.png",
     "Untitled/desktop.ini",
@@ -295,15 +287,10 @@
     "00. Fleeting notes",
     "images/2026-09-21 11_49_55-Greenshot.png",
     "AITT/Blogs",
-    "APPS",
     "Untitled.canvas",
-    "BLOGS/subnotes",
-    "BLOGS",
     "images/Pasted image 20260720174123.png",
     "images/Pasted image 20260704210140.png",
     "images/Pasted image 20260601095425.png",
-    "images/Pasted image 20260601103034.png",
-    "images/Pasted image 20260601103021.png",
-    "images/Pasted image 20260601101754.png"
+    "images/Pasted image 20260601103034.png"
   ]
 }
