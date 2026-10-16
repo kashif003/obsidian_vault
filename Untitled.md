@@ -12,4 +12,6 @@ not able to see the changes  for now
 
  here are some change for githun
   why are these changes not shown in github?
-  
+
+
+changes from the first laptop to the seond laptop lets see if teh go
