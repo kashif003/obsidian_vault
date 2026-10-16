@@ -12,4 +12,5 @@ TQ_show_task_count: false
   why are these changes not shown in github?
 
 
-here are more changes to the first laptop these changes should be implemented by now but lets see why these are not implemented
+changes from the first laptop to the seond laptop lets see if teh go
+ had a merg conflict  solved it for now letss see if theis will result sin error ot no
