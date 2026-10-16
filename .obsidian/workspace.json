@@ -119,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.3333435058594,
-    "collapsed": true
+    "width": 286.3333435058594
   },
   "right": {
     "id": "c32523941e8a39e3",
@@ -213,8 +212,8 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "clock",
-              "title": "Reminders"
+              "icon": "lucide-ghost",
+              "title": "reminder-list"
             }
           }
         ]
@@ -237,10 +236,10 @@
       "workspaces:Manage workspace layouts": true,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "pdf-plus:PDF++: Toggle auto-copy": true,
-      "pdf-plus:PDF++: Toggle auto-focus": true,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": true,
+      "copilot:Open Copilot Chat": false,
       "vim-cheatsheet:Open Vim Cheatsheet in Modal": false,
       "templater-obsidian:Templater": false,
       "github-sync:Sync with Remote": false
