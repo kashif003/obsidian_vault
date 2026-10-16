@@ -212,8 +212,8 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "reminder-list"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
         ]
@@ -236,20 +236,20 @@
       "workspaces:Manage workspace layouts": true,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false,
+      "copilot:Open Copilot Chat": true,
       "vim-cheatsheet:Open Vim Cheatsheet in Modal": false,
       "templater-obsidian:Templater": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "5ab1ecfeb8e20644",
+  "active": "067f9196229c9407",
   "lastOpenFiles": [
-    "Simulation manual object movement via python.md",
+    "2026-10-15.md",
+    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
     "Untitled.md",
-    "Untitled 1.md",
     "2026-10-13.md",
     "Excalidraw/Drawing 2026-10-15 19.35.16.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
@@ -259,9 +259,8 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Untitled",
-    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
     "2026-10-12.md",
-    "2026-10-15.md",
+    "Simulation manual object movement via python.md",
     "Master Thesis/Daily notes/2026-10-07.md",
     "Untitled.base",
     "sub_notes/3.3 Learning from example project..md",
