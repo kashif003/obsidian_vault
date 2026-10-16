@@ -12,4 +12,4 @@ TQ_show_task_count: false
   why are these changes not shown in github?
 
 
-here are more changes to the first laptop
+here are more changes to the first laptop these changes should be implemented by now but lets see why these are not implemented
