@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rtlc",
+                "query": "run rtlc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
