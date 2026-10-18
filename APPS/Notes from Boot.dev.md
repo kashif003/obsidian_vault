@@ -32,7 +32,6 @@ Talk About Trade-offs: In technical interviews, don't just say, "I used this too
 
 Avoid Common Pitfalls: Practice answering behavioral questions and be prepared to speak clearly about your coding journey and problem-solving strategies.
 
-
 ---
 
 
