@@ -64,3 +64,20 @@ This endpoint is responsible for isolating and extracting individual chromatogra
 2.  **Segmentation & Detection:** Runs the FastSAM model to generate a binary mask, calculating the precise geometry, centers, and boundaries of the tracks and bands.
 3.  **Manual Overrides:** Integrates directly with frontend user edits. If a user adjusted the band parameters (e.g., `num_bands`, `band_spacing`) after the initial analysis, this step overrides the automatic detection with the human-corrected geometry.
 4.  **Cropping & Saving:** Uses the final geometry to physically crop each band from the original image, saves them in the `media/extracted_bands/` directory, and compiles their URLs for the response.
+
+---
+
+### Datapoint Retrieval Endpoint Summary (`/api/rtlc/datapoint/`)
+
+**Overview**
+This endpoint serves as a specific lookup tool to retrieve metadata and the accessible media URL for a single, already-extracted TLC band. Unlike the extraction endpoints, it performs no new analysis or image processing; it simply locates a previously saved datapoint.
+
+**Input & Output**
+*   **Input:** Accepts GET requests requiring two query parameters: `image_folder` (the source folder) and `band_index` (the numeric identifier of the band).
+*   **Output:** Returns a JSON response containing the specific band's filename and its complete, absolute media URL.
+
+**Core Processing Workflow**
+1.  **Parameter Validation:** Checks that both required query strings are present and converts the band index into a valid integer.
+2.  **Secure Lookup:** Scans the `media/extracted_bands/` directory to locate the requested folder, ensuring the search stays within the configured boundaries. It then matches the provided index to the corresponding numeric image filename.
+3.  **URL Generation:** Converts the local internal path of the identified image into a fully absolute media URL that the frontend can load.
+4.  **Error Handling:** Features robust error management, returning clear 400 (Bad Request) or 404 (Not Found) status codes if parameters are missing, invalid, or if the requested band cannot be located.
