@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "2026-10-18"
             }
+          },
+          {
+            "id": "4e3b1b854401c7b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RTLC Report..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RTLC Report."
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,13 +259,13 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "f0c57b19bdddf869",
+  "active": "4e3b1b854401c7b3",
   "lastOpenFiles": [
-    "Untitled.md",
     "2026-10-18.md",
+    "RTLC Report..md",
+    "Untitled.md",
     "00. Fleeting notes/WORKSPACE.md",
     "2026-10-13.md",
-    "Untitled 1.md",
     "Untitled 2.md",
     "Untitled 3.md",
     "Simulation manual object movement via python.md",
