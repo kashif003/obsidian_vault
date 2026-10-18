@@ -46,3 +46,8 @@ Avoid Common Pitfalls: Practice answering behavioral questions and be prepared t
 Summary: <span style="color: var(--color-yellow)">Build a portfolio and keep applying</span>
 
 ----
+# Another article form Daniel Bourke
+
+[link](https://zerotomastery.io/blog/how-to-become-an-ai-engineer/)
+
++ 
