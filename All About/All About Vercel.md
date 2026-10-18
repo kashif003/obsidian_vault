@@ -46,15 +46,15 @@ Think of it as: *"`git push` → website is live in about a minute."*
 
 ### Why does it exist? (the problem it solves)
 
-| Without Vercel (traditional hosting) | With Vercel |
-|---|---|
-| Rent a server (VPS), install Linux, Nginx, Node | No server to manage |
-| Configure SSL certificates manually | Automatic HTTPS |
-| Set up CI/CD pipeline yourself | Built-in: push to Git = deploy |
-| Add a CDN separately | CDN included globally |
-| Scale manually when traffic spikes | Auto-scales |
-| Test changes on a shared staging server | Unique preview URL per branch/PR |
-| Rollbacks = redeploy old code manually | One-click instant rollback |
+| Without Vercel (traditional hosting)            | With Vercel                      |
+| ----------------------------------------------- | -------------------------------- |
+| Rent a server (VPS), install Linux, Nginx, Node | No server to manage              |
+| Configure SSL certificates manually             | Automatic HTTPS                  |
+| Set up CI/CD pipeline yourself                  | Built-in: push to Git = deploy   |
+| Add a CDN separately                            | CDN included globally            |
+| Scale manually when traffic spikes              | Auto-scales                      |
+| Test changes on a shared staging server         | Unique preview URL per branch/PR |
+| Rollbacks = redeploy old code manually          | One-click instant rollback       |
 
 ---
 
