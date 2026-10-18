@@ -15,11 +15,11 @@ Show Consistent History: A GitHub profile with steady commits over several month
 
 # Marketing Yourself (Resume & LinkedIn)
 
-Bypass the Trash Bin: Your resume needs to clearly signal your skills immediately. Focus heavily on the technologies you used in your deployed projects and the specific problems you solved.
+Bypass the Trash Bin: Your resume needs to clearly signal your skills immediately. **Focus heavily on the technologies** you used in your deployed projects and the specific problems you solved.
 
-Polish Your LinkedIn: Keep your profile updated, professional, and aligned with your resume. It acts as your public-facing signal to recruiters.
+<span style="color: var(--color-red)">Polish Your LinkedIn</span>: Keep your profile updated, professional, and aligned with your resume. It acts as your public-facing signal to recruiters.
 
-3. The Hustle (Applying & Networking)
+# The Hustle (Applying & Networking)
 
 Targeted Strategy: Treat the job hunt systematically rather than randomly sending out hundreds of identical applications.
 
