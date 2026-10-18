@@ -29,6 +29,18 @@ URLS in rTLC app:
 ---
 
 
-1. analyze images:
 
+### Image Analysis Endpoint Summary (`/api/rtlc/analyze_image/`)
 
+**Overview**
+This endpoint automates the detection and analysis of Thin-Layer Chromatography (TLC) bands from uploaded images. It utilizes the FastSAM segmentation model to identify band positions and generates marked copies of the images for visual verification.
+
+**Input & Output**
+*   **Input:** Accepts POST requests (`multipart/form-data`) containing one or more image files and optional manual JSON corrections (`marking_values`).
+*   **Output:** Returns a comprehensive JSON response detailing calculated band positions, spacing, summary data, links to the generated marked images, and any processing errors.
+
+**Core Processing Workflow**
+1.  **Validation:** Secures the pipeline by verifying image formats (PNG, JPG, TIFF), sizes, PIL compatibility, and checking for duplicate filenames.
+2.  **Segmentation & Detection:** Runs the FastSAM model to build a binary segmentation mask. It then groups connected components into vertical tracks to calculate exact band dimensions, centers, and spacing.
+3.  **Manual Correction:** Seamlessly applies any user-provided manual overrides (like band width or spacing) to adjust the automatically detected boundaries.
+4.  **Result Generation:** Draws cyan boundary boxes over the identified bands on a copy of the image, saves it, and compiles the final batch results.
