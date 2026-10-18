@@ -103,3 +103,21 @@ This endpoint acts as a directory lister, retrieving all previously extracted TL
 
 -----
 
+### Clustering Dashboard Endpoint (`/api/rtlc/make_clusters/`)
+
+**Overview**
+This endpoint performs machine-learning-based clustering on specific extracted TLC bands to group similar visual patterns. It leverages an autoencoder model for feature extraction alongside a clustering algorithm (such as K-means) to automatically generate an interactive HTML dashboard for data exploration.
+
+**Input & Output**
+*   **Input:** Accepts POST requests (via JSON or `multipart/form-data`) with configuration parameters including the model path, target image folders, clustering dimensions, method, and an optional `selected_bands` mapping to target specific bands.
+*   **Output:** Returns a JSON response containing a success message and the accessible URL to the generated interactive HTML dashboard.
+
+**Core Processing Workflow**
+1.  **Normalization & Validation:** Parses the request parameters and strictly validates the `selected_bands` object, ensuring all specified folders and band indexes actually exist, are positive integers, and contain no duplicates.
+2.  **Feature Extraction:** Loads the validated band images and runs them through the configured autoencoder model to create mathematical feature vectors.
+3.  **Clustering & Generation:** Applies the requested clustering algorithm to the feature vectors, builds the interactive HTML dashboard, and saves it in the `media/clusters/` directory.
+4.  **Error Handling:** Features strict validation checks, rejecting invalid requests (400 Bad Request) and safely catching internal clustering failures (500 Internal Server Error) while logging the details.
+
+---
+
+
