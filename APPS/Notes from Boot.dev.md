@@ -21,13 +21,12 @@ Bypass the Trash Bin: Your resume needs to clearly signal your skills immediatel
 
 # The Hustle (Applying & Networking)
 
-Targeted Strategy: Treat the job hunt systematically rather than randomly sending out hundreds of identical applications.
+**Targeted Strategy:** Treat the job hunt systematically rather than randomly sending out hundreds of identical applications.
 
-Meet Humans: Go to local tech meetups and networking events. Getting your resume directly in front of the right people is often more effective than cold applying.
+**Meet Humans:** Go to local tech meetups and networking events. Getting your resume directly in front of the right people is often more effective than cold applying.
 
 Consider Relocation: Think through the trade-offs of relocating versus holding out for a remote role, especially for your first junior position.
-
-4. Nailing the Interview
+# the Interview
 
 Talk About Trade-offs: In technical interviews, don't just say, "I used this tool because the tutorial did." Explain the real-world problems you ran into and why your solution made sense.
 
