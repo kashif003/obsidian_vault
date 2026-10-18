@@ -51,4 +51,10 @@ Summary: <span style="color: var(--color-yellow)">Build a portfolio and keep app
 [link](https://zerotomastery.io/blog/how-to-become-an-ai-engineer/)
 
 + Learn how to deploy models at production at scale using tools AWS SAGEMAKER.
-+ 
++ Build a portfolio with projects like chatbots, digital assistants, RAG systems.
++ Be ready for multistage interview.
+
+
++ increase the skills by advanced tools like:
+	+ langchain, langGraph
+	+ 
