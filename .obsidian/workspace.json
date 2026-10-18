@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "APPS/Notes from Boot.dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "Notes from Boot.dev"
             }
           },
           {
@@ -276,9 +276,12 @@
   "active": "2363b5050c0fec74",
   "lastOpenFiles": [
     "2026-10-18.md",
-    "Untitled 1.md",
-    "2026-10-13.md",
     "RTLC Report..md",
+    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
+    "2026-10-12.md",
+    "2026-10-13.md",
+    "2026-10-15.md",
+    "APPS/Notes from Boot.dev.md",
     "Untitled.md",
     "00. Fleeting notes/WORKSPACE.md",
     "Untitled 2.md",
@@ -292,9 +295,6 @@
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
     "Untitled",
-    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
-    "2026-10-12.md",
-    "2026-10-15.md",
     "Master Thesis/Daily notes/2026-10-07.md",
     "Untitled.base",
     "sub_notes/3.3 Learning from example project..md",
