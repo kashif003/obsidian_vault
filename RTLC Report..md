@@ -44,3 +44,10 @@ This endpoint automates the detection and analysis of Thin-Layer Chromatography 
 2.  **Segmentation & Detection:** Runs the FastSAM model to build a binary segmentation mask. It then groups connected components into vertical tracks to calculate exact band dimensions, centers, and spacing.
 3.  **Manual Correction:** Seamlessly applies any user-provided manual overrides (like band width or spacing) to adjust the automatically detected boundaries.
 4.  **Result Generation:** Draws cyan boundary boxes over the identified bands on a copy of the image, saves it, and compiles the final batch results.
+
+
+
+---
+
+
+
