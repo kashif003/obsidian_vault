@@ -7,11 +7,13 @@
 
 Deploy Real Projects: Don't just build tutorial clones (like a standard to-do app). Build real tools—like an API, a CLI tool, or a web service—and make sure they have a live URL or an easy install command.
 
+
 Write Excellent READMEs: Hiring managers want to see your decision-making process. Use your README to explain why you chose a specific database (e.g., PostgreSQL over MongoDB) or how you structured your authentication.
+
 
 Show Consistent History: A GitHub profile with steady commits over several months looks much better than three repositories created the week you started applying.
 
-2. Marketing Yourself (Resume & LinkedIn)
+# Marketing Yourself (Resume & LinkedIn)
 
 Bypass the Trash Bin: Your resume needs to clearly signal your skills immediately. Focus heavily on the technologies you used in your deployed projects and the specific problems you solved.
 
