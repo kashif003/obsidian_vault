@@ -35,3 +35,7 @@ Avoid Common Pitfalls: Practice answering behavioral questions and be prepared t
 ---
 
 
+Article form Daniel BOurke [link](https://zerotomastery.io/blog/how-to-get-a-job-in-machine-learning/)
+
+
++ Learning in 
