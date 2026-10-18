@@ -121,3 +121,17 @@ This endpoint performs machine-learning-based clustering on specific extracted T
 ---
 
 
+### Model Listing Endpoint (`/api/rtlc/list_models/`)
+
+**Overview**
+This endpoint acts as a read-only directory scanner that retrieves a list of available autoencoder model files used for rTLC clustering. It simply locates the files and provides their metadata without loading, validating, or executing them.
+
+**Input & Output**
+*   **Input:** Accepts standard GET requests requiring no parameters.
+*   **Output:** Returns a sorted JSON array containing the `name`, relative `path`, and `size` (in bytes) of each available model file. If no models are found, it safely returns an empty array.
+
+**Core Processing Workflow**
+1.  **Directory Scanning:** Targets the local `./models/` directory on the backend.
+2.  **File Filtering:** Filters the directory contents to include only supported machine learning model extensions (`.pt`, `.pth`, `.pkl`, `.onnx`).
+3.  **Metadata Extraction & Sorting:** Gathers the filename, relative path, and byte size for each valid model, sorts the list alphabetically by filename, and generates the final JSON response.
+4.  **Pipeline Integration:** This endpoint is designed to populate frontend model-selection controls (like dropdown menus). The user's chosen model path is subsequently sent to the `/api/rtlc/make_clusters/` endpoint. (Note: Actual model compatibility is verified during the clustering step, not here).
