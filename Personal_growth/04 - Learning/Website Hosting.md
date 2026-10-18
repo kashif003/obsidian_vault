@@ -14,3 +14,5 @@ DATABASE (free tier):
 2. MongoDB      *(NoSQL, free 512 cluster)*
 3. Neon         *(Serverless Postgress, free tier)*
 4. Firebase     *(Google option, real-time DB + free tier)*
+
+
