@@ -519,6 +519,7 @@ Hobby = non-commercial only
 
 </details>
 
+
 ---
 
 ## 23. Glossary
