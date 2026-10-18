@@ -57,4 +57,5 @@ Summary: <span style="color: var(--color-yellow)">Build a portfolio and keep app
 
 + increase the skills by advanced tools like:
 	+ langchain, langGraph
-	+ 
+	+ Hugging face, AI agents, Data Engineering, etc
+
