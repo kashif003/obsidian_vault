@@ -32,12 +32,7 @@ Talk About Trade-offs: In technical interviews, don't just say, "I used this too
 
 Avoid Common Pitfalls: Practice answering behavioral questions and be prepared to speak clearly about your coding journey and problem-solving strategies.
 
-Recommended Articles for Bookmark & Review
 
-"How to Become a Backend Developer in 2026" (Boot.dev Blog)
+---
 
-Why read it: Goes deep into what hiring managers actually look for (like Git history and architectural decisions) and provides a realistic timeline for getting job-ready.
 
-"A Step-by-Step Guide to Becoming a Hire-able Software Developer" (by Brian Jenney on Medium)
-
-Why read it: An excellent breakdown of how to reverse-engineer your learning path by looking at the specific projects you want to build and the jobs you want to land.
