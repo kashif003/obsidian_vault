@@ -81,3 +81,25 @@ This endpoint serves as a specific lookup tool to retrieve metadata and the acce
 2.  **Secure Lookup:** Scans the `media/extracted_bands/` directory to locate the requested folder, ensuring the search stays within the configured boundaries. It then matches the provided index to the corresponding numeric image filename.
 3.  **URL Generation:** Converts the local internal path of the identified image into a fully absolute media URL that the frontend can load.
 4.  **Error Handling:** Features robust error management, returning clear 400 (Bad Request) or 404 (Not Found) status codes if parameters are missing, invalid, or if the requested band cannot be located.
+
+
+---
+
+
+### Extracted Bands Listing Endpoint (`/api/rtlc/extracted_bands/`)
+
+**Overview**
+This endpoint acts as a directory lister, retrieving all previously extracted TLC band images stored on the backend. It scans the storage directory, groups the bands by their source image folders, and provides absolute media URLs for frontend access. 
+
+**Input & Output**
+*   **Input:** Accepts GET requests requiring no parameters.
+*   **Output:** Returns a JSON response containing a grouped list of all folders, the total count of bands in each, and the metadata and absolute URLs for every valid band. If no bands exist, it safely returns an empty list.
+
+**Core Processing Workflow**
+1.  **Directory Scanning:** Locates the `media/extracted_bands/` root directory and iterates through all available subfolders.
+2.  **File Filtering & Indexing:** Identifies supported image formats (PNG, JPG, TIFF) and strictly filters for files with numeric filenames (e.g., `1.png`). The numeric filename is automatically parsed to act as the band's index.
+3.  **URL Generation:** Converts the local file paths into fully accessible absolute media URLs for the frontend.
+4.  **Data Aggregation:** Compiles the parsed indexes, filenames, and URLs into a structured JSON payload, neatly organized by their parent image folder.
+
+-----
+
