@@ -50,4 +50,17 @@ This endpoint automates the detection and analysis of Thin-Layer Chromatography 
 ---
 
 
+### Band Extraction Endpoint Summary (`/api/rtlc/extract_bands/`)
 
+**Overview**
+This endpoint is responsible for isolating and extracting individual chromatography bands from uploaded images. It detects band geometry, applies any manual user adjustments, crops the specific band regions, and saves them locally for further downstream analysis or clustering.
+
+**Input & Output**
+*   **Input:** Accepts POST requests (`multipart/form-data`) with image files and an optional `marking_values` field for manual coordinate corrections.
+*   **Output:** Returns a JSON response containing metadata and local media URLs for all the successfully cropped and saved band images.
+
+**Core Processing Workflow**
+1.  **Validation:** Ensures the uploaded files are unique, supported, within size limits, and uncorrupted.
+2.  **Segmentation & Detection:** Runs the FastSAM model to generate a binary mask, calculating the precise geometry, centers, and boundaries of the tracks and bands.
+3.  **Manual Overrides:** Integrates directly with frontend user edits. If a user adjusted the band parameters (e.g., `num_bands`, `band_spacing`) after the initial analysis, this step overrides the automatic detection with the human-corrected geometry.
+4.  **Cropping & Saving:** Uses the final geometry to physically crop each band from the original image, saves them in the `media/extracted_bands/` directory, and compiles their URLs for the response.
