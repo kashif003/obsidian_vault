@@ -37,7 +37,7 @@ Avoid Common Pitfalls: Practice answering behavioral questions and be prepared t
 
 # Article form Daniel BOurke 
 
-
+[link](https://zerotomastery.io/blog/how-to-get-a-job-in-machine-learning/)
 
 + Learning in public, share the progress in public (**most important**)
 + Start a job before you have it: find open source project and do it. show that you can do the job.
