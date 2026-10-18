@@ -39,4 +39,5 @@ Article form Daniel BOurke [link](https://zerotomastery.io/blog/how-to-get-a-job
 
 
 + Learning in public, share the progress in public (**most important**)
-+ S
++ Start a job before you have it: find open source project and do it. show that you can do the job.
++ 
