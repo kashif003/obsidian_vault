@@ -104,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.3333435058594,
-    "collapsed": true
+    "width": 286.3333435058594
   },
   "right": {
     "id": "c32523941e8a39e3",
@@ -202,7 +201,8 @@
               "title": "Reminders"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",

@@ -1,19 +1,11 @@
 {
   "scanned": true,
   "reminders": {
-    "Master Thesis/Daily notes/2026-10-07.md": [
-      {
-        "title": "make a small report and PPT for andre for his presentation.",
-        "time": "2026-10-16 15:00",
-        "rowNumber": 11,
-        "muted": true
-      }
-    ],
     "2026-10-19.md": [
       {
         "title": "check the mail box of TK",
         "time": "2026-10-19 10:00",
-        "rowNumber": 22,
+        "rowNumber": 20,
         "muted": true
       }
     ]
