@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal_growth/MLops/MLops Introduction.md",
+                "file": "Book summaries/Introduction to MLOPs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MLops Introduction"
+              "title": "Introduction to MLOPs"
             }
           },
           {
@@ -276,9 +276,9 @@
   },
   "active": "13c4296913c5b092",
   "lastOpenFiles": [
+    "Personal_growth/MLops/MLops Introduction.md",
     "2026-10-19.md",
     "Untitled.md",
-    "Personal_growth/MLops/MLops Introduction.md",
     "Personal_growth/MLops",
     "Master Thesis/2026-10-14 - Anomaly Detection Progress Meeting 3.md",
     "Daily Notes/2026-10-18.md",
