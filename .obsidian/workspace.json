@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Simulation manual object movement via python.md",
+                "file": "2026-10-19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simulation manual object movement via python"
+              "title": "2026-10-19"
             }
           }
         ]
@@ -104,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.3333435058594
+    "width": 286.3333435058594,
+    "collapsed": true
   },
   "right": {
     "id": "c32523941e8a39e3",
@@ -232,8 +233,9 @@
   },
   "active": "7eec0b96fddec33e",
   "lastOpenFiles": [
-    "Untitled.md",
     "Simulation manual object movement via python.md",
+    "2026-10-19.md",
+    "Untitled.md",
     "RTLC Report..md",
     "& 2026-10-14 Deep Learning for Time Series Anomaly Detection A Survey.md",
     "Daily Notes/2026-10-12.md",
@@ -265,7 +267,6 @@
     "Master Thesis/Benchmarks/DAYPSCI.md",
     "Master Thesis/Registration.md",
     "Master Thesis/literature review/A TESTBED FOR EVALUATION OF MACHINE LEARNING TECHNIQUES IN ANOMALY DETECTION IN INDUSTRIAL CYBER PHYSICAL SYSTEMS.md",
-    "Master Thesis/literature review/CARLA Self-supervised contrastive representation learning for time series anomaly detection.md",
     "Personal_growth/00. Fleeting notes",
     "sub_notes/Pasted image 20261011120632.png",
     "Untitled/desktop.ini",
