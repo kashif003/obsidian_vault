@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "file:/home/hyprland-user/Desktop/Files/Master thesis/PPT/OTH PPT/Progress summary.md",
+                "file": "2026-10-18.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Progress summary"
+              "title": "2026-10-18"
             }
           },
           {
@@ -147,8 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.3333435058594,
-    "collapsed": true
+    "width": 286.3333435058594
   },
   "right": {
     "id": "c32523941e8a39e3",
@@ -276,6 +275,7 @@
   },
   "active": "2363b5050c0fec74",
   "lastOpenFiles": [
+    "file:/home/hyprland-user/Desktop/Files/Master thesis/PPT/Progress summary.md",
     "All About/All About Vercel.md",
     "file:/home/hyprland-user/Desktop/Files/Master thesis/PPT/OTH PPT/Progress summary.md",
     "Personal_growth/04 - Learning/Website Hosting.md",
@@ -308,7 +308,6 @@
     "Excalidraw/Drawing 2026-10-15 10.13.44.excalidraw.md",
     "Excalidraw",
     "Master Thesis/Daily notes/2026-10-14.md",
-    "Master Thesis/Benchmarks/DAYPSCI.md",
     "Personal_growth/00. Fleeting notes",
     "sub_notes/Pasted image 20261011120632.png",
     "Untitled/desktop.ini",
