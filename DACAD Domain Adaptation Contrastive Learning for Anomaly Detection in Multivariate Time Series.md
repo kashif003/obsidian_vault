@@ -50,12 +50,10 @@ ans: the paper doesnt mention any of that but due to contrastive loss the model 
 
 
 removing of domain bais:
-
 the discriminator is train in GAN style which classifies if the datapoint is  form source or target domain but by using the reversal gradient technique on descriminator they change the features such that the domain specific bais is removed form the features.
 
 IMPORTANT:
-initially discriminator is good but weight changes are done to feature extractor not to the descriminator, so therefore we are sure that descriminator was good but the bias is removed i.e why it is not able to tell the datapoints apart.
-
+Initially the discriminator is good at telling the domains apart, and it keeps being trained throughout, but the gradient reversal layer flips the gradient only for the feature extractor, so the feature extractor learns to remove the domain bias. That is likely why the discriminator ends up unable to tell the datapoints apart, though this is good evidence rather than proof.
 
 
 
