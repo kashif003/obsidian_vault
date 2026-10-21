@@ -34,4 +34,7 @@ Things they do:
 
 + perform supervised and self supervised classication, supervised is done source domain where we have the info about the anomaly and normal and self supervised is done where we have no idea.
 + they do the same thing that is done in [[CARLA Self-supervised contrastive representation learning for time series anomaly detection]] where they injected anomalies and performed contrastive learning
-+ they make use of center  based entropy 
++ they make use of center  based entropy and bring the normal sameples close to each other at the same time push the anomaly  samples away form each other.
+
+
+
