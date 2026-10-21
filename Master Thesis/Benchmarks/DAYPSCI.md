@@ -128,3 +128,4 @@ problem:
 
 
 
+we need to figure out do we need to use autoencoder
