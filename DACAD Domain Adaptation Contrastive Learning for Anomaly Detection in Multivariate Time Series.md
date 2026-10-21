@@ -68,6 +68,9 @@ overall loss fucntion has  therefore 4 parts:
 3. Discriminator loss
 4. classifier loss 
 
+all these loss functions are combined then as a weighted sum.
+
+
 
 ---
 
