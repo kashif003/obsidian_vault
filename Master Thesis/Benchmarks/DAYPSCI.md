@@ -122,5 +122,9 @@ try dbscan for clustering and dense clusters are normal and less dense clusters 
 count of -1 = 451
 count of 1 = 259
 
- tired to bring the normal datapoints close.
-problem
+ tired to bring the normal datapoints close. by adding clustering loss
+problem:
+	the anomaly points are also comming close to the center reuslts in a big single cluster.
+
+
+
