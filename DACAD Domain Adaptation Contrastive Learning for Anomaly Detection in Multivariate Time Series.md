@@ -79,4 +79,8 @@ experiments
 
 Potential papers:
 1. [TSAD by diffusion models](https://dl.acm.org/doi/full/10.1145/3783986) 
-2. 
+2. **important**: LSTM based encoder decoder for TSAD [link](https://arxiv.org/pdf/1607.00148)
+3. 
+
+
+check the models they have used in the section V baselines.
