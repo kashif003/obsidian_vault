@@ -21,3 +21,12 @@ existing methods assume the source and target domains share the same anomaly cla
 for more generalization they inject anomalies what are described in [[Deep learning for  time series anomaly detection A Survey]], these introduced anomalies are treated as negatives for the contrastive losses.
 
 Source domain has labels so they perform supervised leanring, for target domain they do self supervised learning. same as they did in [[CARLA Self-supervised contrastive representation learning for time series anomaly detection]] 
+
+they use a TCN(temporal convolutional network) as feature extractor and a descriminator  with gradient reversal technique which makes the features domain invariant.
+
+They also use center based cross entropy (check below what it does)..
+
+
+
+----
+
