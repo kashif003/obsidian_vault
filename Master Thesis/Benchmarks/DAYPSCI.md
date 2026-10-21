@@ -129,3 +129,28 @@ currently i have a cluster which is not that close need to bring clustering poin
 
 
 
+ok i am trainng and auto encoder which has latent dimentions of 8 but when i plot the datapoints they are faraway,
+
+  
+
+how do imporve my training that the datapoints are more close to each other.
+
+  
+
+i want to do two types of training.
+
+  
+
+1. train the normal autoencoder for certian number of epoch then change the loss fucntion adn then train add the two layer to the encoder such that i will make the center of the clustered points.
+2. then trainig will shft such that now i will try to bring the points closer to center. and only train autoencoder on that not on RE loss
+
+  
+
+  
+
+or should i add to re and the loss by which the center of the cluster is close to the data points i.e  i will training normally adn then i will have a loss which will ahve two parts re and clustering loss.
+
+
+after lets say 100 epochs i will enable clustering loss as well initially the weight of that  loss will be zreo but with increasein gin eoch the clustering loss weight will also increase as well.
+
+then the cluster will be compact after certain number of epochs right?
