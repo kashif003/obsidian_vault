@@ -75,6 +75,14 @@ all these loss functions are combined then as a weighted sum.
 
 experiments
 
+lists the models and dataset that they have used,
+
+---
+
+start form baseline comparison
+
+
+
 ---
 
 Potential papers:
