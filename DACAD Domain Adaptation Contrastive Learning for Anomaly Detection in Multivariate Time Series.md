@@ -46,8 +46,7 @@ in target domain  it is same as [[CARLA Self-supervised contrastive representati
 
 <span style="color: var(--color-red)">
 Q: if the anomaly injection is same what is the point then, wont they have same anomalies in target domain as well?</span>
-
-
+ans: the paper doesnt mention any of that but due to contrastive loss the model can detect any other anomaly other than these 5 which are injected but it is not guaranteed.
 
 
 
