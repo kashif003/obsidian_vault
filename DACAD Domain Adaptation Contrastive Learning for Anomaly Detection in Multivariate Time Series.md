@@ -30,3 +30,8 @@ They also use center based cross entropy (check below what it does)..
 
 ----
 
+Things they do:
+
++ perform supervised and self supervised classication, supervised is done source domain where we have the info about the anomaly and normal and self supervised is done where we have no idea.
++ they do the same thing that is done in [[CARLA Self-supervised contrastive representation learning for time series anomaly detection]] where they injected anomalies and performed contrastive learning
++ they make use of center  based entropy 
