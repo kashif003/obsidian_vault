@@ -113,10 +113,7 @@ Brief summary:
 Changing the approach:
 
 tried the pipeline on training dataset got 100 percent result.
-
 try dbscan for clustering and dense clusters are normal and less dense clusters are anomaly.
-
-
 
 ----
 
