@@ -121,3 +121,11 @@ try dbscan for clustering and dense clusters are normal and less dense clusters 
 
 count of -1 = 451
 count of 1 = 259
+
+
+
+currently i have a cluster which is not that close need to bring clustering points more together.
+
+
+
+
