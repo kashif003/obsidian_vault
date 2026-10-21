@@ -39,8 +39,10 @@ Things they do:
 
 
 
+anomaly injection:
+in source domain anchor is a normal window and positive is another normal window and negative is anomaly window(which is labelled) or injected normal window(which they make by anomaly injection).
 
-
+in target domain  it is same as [[CARLA Self-supervised contrastive representation learning for time series anomaly detection]]
 
 
 
