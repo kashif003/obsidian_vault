@@ -49,7 +49,12 @@ Q: if the anomaly injection is same what is the point then, wont they have same 
 ans: the paper doesnt mention any of that but due to contrastive loss the model can detect any other anomaly other than these 5 which are injected but it is not guaranteed.
 
 
+removing of domain bais:
 
+the discriminator is train in GAN style which classifies if the datapoint is  form source or target domain but by using the reversal gradient technique on descriminator they change the features such that the domain specific bais is removed form the features.
+
+IMPORTANT:
+initially discriminator is good but weight changes are done to feature extractor not to the descriminator, so therefore we are sure that descriminator was good but the bias is removed i.e why it is not able to tell the datapoints apart.
 
 
 
