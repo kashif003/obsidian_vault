@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-10-20.md",
+                "file": "2026-10-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-20"
+              "title": "2026-10-21"
             }
           }
         ],
@@ -119,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.3333435058594
+    "width": 286.3333435058594,
+    "collapsed": true
   },
   "right": {
     "id": "c32523941e8a39e3",
@@ -247,8 +248,9 @@
   },
   "active": "13c4296913c5b092",
   "lastOpenFiles": [
-    "AITT/2026-07-27.md",
     "2026-10-20.md",
+    "2026-10-21.md",
+    "AITT/2026-07-27.md",
     "Book summaries/BOOKS TO READ.md",
     "Book summaries/Introduction to MLOPs.md",
     "Personal_growth/MLops/MLops Introduction.md",
@@ -274,7 +276,6 @@
     "2026-10-13.md",
     "2026-10-15.md",
     "00. Fleeting notes/WORKSPACE.md",
-    "Untitled 2.md",
     "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
     "Excalidraw/Scripts/Downloaded",
