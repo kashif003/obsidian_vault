@@ -44,8 +44,8 @@ in source domain anchor is a normal window and positive is another normal window
 
 in target domain  it is same as [[CARLA Self-supervised contrastive representation learning for time series anomaly detection]]
 
-
-
+<span style="color: var(--color-red)">
+Q: if the anomaly injection is same what is the point then, wont they have same anomalies in target domain as well?</span>
 
 
 
