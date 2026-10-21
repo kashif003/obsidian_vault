@@ -71,6 +71,9 @@ overall loss fucntion has  therefore 4 parts:
 all these loss functions are combined then as a weighted sum.
 
 
+---
+
+experiments
 
 ---
 
