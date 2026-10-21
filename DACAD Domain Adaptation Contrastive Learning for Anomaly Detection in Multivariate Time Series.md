@@ -57,8 +57,16 @@ Initially the discriminator is good at telling the domains apart, and it keeps b
 
 
 
+cross entropy classifier:
+The CEC extends DeepSVDD by using source labels. An MLP on top of the TCN maps each window to a point, and a learnable center c (initialization not stated in the paper) is trained with a BCE-style loss on the labeled source domain, pulling normal windows toward c and pushing real anomalous ones away. At inference, c is frozen and a target window’s squared distance to c is its anomaly score, which is thresholded to flag anomalies.
 
 
+overall loss fucntion has  therefore 4 parts:
+
+1. supervised contrastive loss
+2. self-supervised contrastive loss
+3. Discriminator loss
+4. classifier loss 
 
 
 ---
