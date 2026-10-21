@@ -127,5 +127,9 @@ problem:
 	the anomaly points are also comming close to the center reuslts in a big single cluster.
 
 
+IMPORTANT. (dont waste much time on this data.)
+we need to figure out do we need to use autoencoder here or not if not change the datasett and carry on with CARLA method.
 
-we need to figure out do we need to use autoencoder
+
+
+check out dynamic latent space visualization
