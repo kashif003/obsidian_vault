@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-10-18.md",
+                "file": "Master Thesis/literature review/DAYPSCI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-18"
-            }
-          },
-          {
-            "id": "13c4296913c5b092",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2026-10-21.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-21"
+              "title": "DAYPSCI"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -56,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "LLmop",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.3333435058594,
-    "collapsed": true
+    "width": 286.3333435058594
   },
   "right": {
     "id": "c32523941e8a39e3",
@@ -213,11 +197,12 @@
             "state": {
               "type": "reminder-list",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "reminder-list"
+              "icon": "clock",
+              "title": "Reminders"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -237,50 +222,51 @@
       "workspaces:Manage workspace layouts": true,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-copy": true,
+      "pdf-plus:PDF++: Toggle auto-focus": true,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "copilot:Open Copilot Chat": false,
+      "copilot:Open Copilot Chat": true,
       "vim-cheatsheet:Open Vim Cheatsheet in Modal": false,
       "templater-obsidian:Templater": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "13c4296913c5b092",
+  "active": "7eec0b96fddec33e",
   "lastOpenFiles": [
-    "2026-10-20.md",
     "2026-10-21.md",
-    "AITT/2026-07-27.md",
-    "Book summaries/BOOKS TO READ.md",
-    "Book summaries/Introduction to MLOPs.md",
+    "Master Thesis/literature review/DAYPSCI.md",
     "Personal_growth/MLops/MLops Introduction.md",
-    "2026-10-19.md",
     "Untitled.md",
+    "2026-10-20.md",
+    "2026-10-19.md",
+    "Book summaries/Introduction to MLOPs.md",
     "Personal_growth/MLops",
-    "Master Thesis/2026-10-14 - Anomaly Detection Progress Meeting 3.md",
+    "Build and deploy AI SaaS.md",
+    "Simulation manual object movement via python.md",
+    "RTLC Report..md",
+    "& 2026-10-14 Deep Learning for Time Series Anomaly Detection A Survey.md",
+    "Daily Notes/2026-10-12.md",
     "Daily Notes/2026-10-18.md",
+    "Master Thesis/2026-10-14 - Anomaly Detection Progress Meeting 3.md",
     "Daily Notes/2026-10-15.md",
     "Daily Notes/2026-10-13.md",
-    "Daily Notes/2026-10-12.md",
-    "2026-10-18.md",
-    "Build and deploy AI SaaS.md",
-    "file:/home/hyprland-user/Desktop/Files/Master thesis/PPT/Progress summary.md",
     "All About/All About Vercel.md",
-    "file:/home/hyprland-user/Desktop/Files/Master thesis/PPT/OTH PPT/Progress summary.md",
-    "Personal_growth/04 - Learning/Website Hosting.md",
     "All About",
     "APPS/Notes from Boot.dev.md",
-    "RTLC Report..md",
-    "2026-10-14 - Anomaly Detection Progress Meeting 3.md",
-    "2026-10-12.md",
-    "2026-10-13.md",
-    "2026-10-15.md",
-    "00. Fleeting notes/WORKSPACE.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Excalidraw/Drawing 2026-10-15 19.35.16.excalidraw.md",
     "Excalidraw/Scripts/Downloaded/Concatenate lines.svg",
+    "Excalidraw/Scripts/Downloaded/Concatenate lines.md",
     "Excalidraw/Scripts/Downloaded/Boolean Operations.svg",
+    "Excalidraw/Scripts/Downloaded/Boolean Operations.md",
     "Excalidraw/Scripts/Downloaded",
     "Excalidraw/Scripts",
+    "Untitled",
+    "Master Thesis/Daily notes/2026-10-07.md",
     "Untitled.base",
+    "sub_notes/3.3 Learning from example project..md",
+    "👨‍🎓 Collage/2. Advanced Deep Learning.md",
     "Excalidraw",
     "Personal_growth/00. Fleeting notes",
     "sub_notes/Pasted image 20261011120632.png",
@@ -288,7 +274,6 @@
     "Master Thesis/Benchmarks",
     "images/2026-10-03 11_15_00-Greenshot.png",
     "images/Pasted image 20260725155123.png",
-    "00. Fleeting notes",
     "images/2026-09-21 11_49_55-Greenshot.png",
     "Untitled.canvas",
     "images/Pasted image 20260720174123.png",
