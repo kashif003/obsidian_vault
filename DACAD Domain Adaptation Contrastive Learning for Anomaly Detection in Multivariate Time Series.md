@@ -79,6 +79,20 @@ Baseline:
  + SMD (server machine dataset)
  + Boiler fault detection  
 
+The models that they used:
++ AE-MLP: 
++ AE_LSTM:
++ RDC:
++ VRADA:
++ SASA:
++ CLUDA:
++ ContextDA:
++ OmmiAnomaly:
++ THOC:
++ TS2Vec:
++ AnomalyTransformer:
++ DCdetector:
+
 
 
 
