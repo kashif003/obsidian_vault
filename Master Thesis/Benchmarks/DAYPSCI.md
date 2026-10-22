@@ -131,5 +131,4 @@ IMPORTANT. (dont waste much time on this data.)
 we need to figure out do we need to use autoencoder here or not if not change the datasett and carry on with CARLA method.
 
 
-
-check out dynamic latent space visualization
+- [ ] leave this one for now  we are not getting proper results skip to another datasets
