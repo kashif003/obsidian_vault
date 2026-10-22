@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-10-22.md",
+                "file": "Master Thesis/Benchmarks/DAYPSCI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-22"
+              "title": "DAYPSCI"
             }
           }
         ]
@@ -234,8 +234,8 @@
   },
   "active": "7eec0b96fddec33e",
   "lastOpenFiles": [
-    "DACAD Domain Adaptation Contrastive Learning for Anomaly Detection in Multivariate Time Series.md",
     "2026-10-22.md",
+    "DACAD Domain Adaptation Contrastive Learning for Anomaly Detection in Multivariate Time Series.md",
     "Untitled.md",
     "Master Thesis/Benchmarks/DAYPSCI.md",
     "Master Thesis/literature review/Deep learning for  time series anomaly detection A Survey.md",
