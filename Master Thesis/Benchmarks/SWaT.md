@@ -25,11 +25,7 @@ extra installization
 3. termcolor
 4. openpyxl
 
-
-
 need to convert the xlsx file to csv.
 
-
-
 ---
-
+ carla need to be tried on GPU server.
