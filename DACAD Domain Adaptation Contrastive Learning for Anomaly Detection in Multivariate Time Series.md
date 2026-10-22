@@ -95,6 +95,12 @@ The models that they used:
 
 
 
+Ablation study.
++ check the effect on loss by removing each  component
++ changed the classifier form center based entropy to normal entropy
++ check the effect of  anomaly injection and without anomaly injection
+
+
 
 
 
