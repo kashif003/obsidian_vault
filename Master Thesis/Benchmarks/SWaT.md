@@ -22,3 +22,4 @@ extra installization
 
 1. pyaml
 2. easydict
+3. termcolor
