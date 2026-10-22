@@ -112,3 +112,10 @@ Potential papers:
 
 
 check the models they have used in the section V baselines.
+
+
+
+outlook for the paper:
+
+- [ ] check the repo
+- [ ] maybe replicate the repo
