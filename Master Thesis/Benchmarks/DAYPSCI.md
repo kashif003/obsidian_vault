@@ -116,8 +116,20 @@ tried the pipeline on training dataset got 100 percent result.
 
 try dbscan for clustering and dense clusters are normal and less dense clusters are anomaly.
 
-
-
 ----
 
 
+count of -1 = 451
+count of 1 = 259
+
+ tired to bring the normal datapoints close. by adding clustering loss
+problem:
+	the anomaly points are also comming close to the center reuslts in a big single cluster.
+
+
+IMPORTANT. (dont waste much time on this data.)
+we need to figure out do we need to use autoencoder here or not if not change the datasett and carry on with CARLA method.
+
+
+
+check out dynamic latent space visualization
