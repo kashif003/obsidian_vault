@@ -1,6 +1,15 @@
 {
   "scanned": true,
-  "reminders": {},
+  "reminders": {
+    "2026-10-24.md": [
+      {
+        "title": "",
+        "time": "2026-10-26",
+        "rowNumber": 18,
+        "muted": false
+      }
+    ]
+  },
   "debug": false,
   "dndUntil": null,
   "settings": {
